@@ -1,0 +1,45 @@
+
+body{
+    margin: 0;
+    box-sizing: border-box ;
+   
+
+}
+
+.container{
+    background-image: url(./13c21b949ff03de1e63381f8350813ba.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgba(0, 0, 155, 0.5);
+    background-position: center;
+
+
+    display: flex;
+    justify-content:start;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 100vh;
+
+    backdrop-filter: blur(2px) contrast(70%) opacity(80%) ;
+}
+
+
+
+.txttt{
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    backdrop-filter: blur(2px) contrast(70%) opacity(80%) ;
+    color: rgb(72, 72, 185);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin: 5px 100px 0px 100px;
+
+}
+
+@media (max-width: 500px) {
+    .txttt{
+     font-size: 25px;
+     margin: 5px auto 0px auto;
+    }
+}
